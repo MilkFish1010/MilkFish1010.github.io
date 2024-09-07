@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.green.min.css"
+>
   <style>
+    header {
+            background-color: black;
+            color: #12fa02;
+            padding: 10px 0;
+            text-align: center;
+            border: green outset 5px;
+            font: bolder; 
+    }
     body {
-      background-image: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif'); /* Replace with your background image */
+      background-image: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif');
       background-size: cover;
     }
     h1 {
-      color: rgb(0, 169, 48);
+      color: rgb(19, 214, 2);
       text-align: center;
     }
     .container {
@@ -22,8 +34,8 @@
     h2 {
         color: rgb(5, 210, 5);
     }
-    em {
-        color: red;
+    .yellowgreen-text {
+        color: yellowgreen;
     }
         details {
             width: 100%;
@@ -32,81 +44,133 @@
         summary {
             cursor: pointer;
         }
+        .box {
+          border: outset green 5px;
+          margin: auto;
+          width: 20%;
+        }
+        aside {
+          float: left;
+        }
+        .imgsideborderleft {
+          border: outset green 5px;
+          float: left;
+        }
+        .imgsideborderright {
+          border: outset green 5px;
+          float: right;
+        }
+        .imgborder {
+          border: green outset 15px;
+        }
+        .imgleft {
+          float: left;
+        }
+        .imgright {
+          float: right;
+        }
+        .descriptionleft {
+            padding: 10px;
+            float: left;
+            background-color: #0f0f0f;
+            border: green outset 5px;
+            width: 60%;
+        }
+        .descriptionright {
+            padding: 10px;
+            float: right;
+            background-color: #0f0f0f;
+            border: green outset 5px;
+            width: 60%;
+        }
+            .description {
+            padding: 10px;
+            float: none;
+            margin: auto;
+            background-color: #0f0f0f;
+            border: green outset 5px;
+            width: 50%;
+            text-align: center;
+        }
+
   </style>
+  <header><h1><strong>Hoby Josol's Blog</strong></h1></header>
   <title>My First Blog</title>
 </head>
 <body>
   <header class="container">
     <img src="https://th.bing.com/th/id/OIG2.0gX41yArvtK5GB39j7TS?pid=ImgGn" height="400" width="500">
+    <h1>Historical Perspective of Computing and IT Basics</h1>
 <details> 
-        <summary><h1>Computing History and IT Basics</h1><p><em>CLICK ME</em></p></summary> 
+        <summary><p class="box yellowgreen-text">Expand/Hide</p></summary> 
         <article>
-        <h2>Computing History</h2>
-        <p>COMPUTERS THROUGH TIME
-            Thousands of years ago,
+        <h2>Historical Perspective of Computing</h2>
+        <p>Thousands of years ago,
             people made devices like the
              ABACUS to help them calculate
-            complex math.</p>
-
-            <p>WHAT IS A
-            COMPUTER?
-            Although a CD (compact disc) can store
-            information like music, it’s not considered
-            a computer because the CD itself can’t
-            change information.
-            In the 1600s, computing became
+            complex math.</p><img class="imgborder" src="https://quatr.us/wp-content/uploads/2017/06/taxpayingmetz.jpg" height = "300" width="300">
+</article>
+<article>
+            <h5><strong class="yellowgreen-text">WHAT IS A COMPUTER?</strong></h5>
+                
+            <p>In the 1600s, computing became
             a profession and the word “computer”
             meant “a person who makes
             calculations.” Computers (the people)
-            used a tool called the SLIDE RULE
-            to help them calculate.
-            In 1944, during World War II,
-            the first electronic computer
-            was made.
-            It was called
-            COLOSSUS MARK 1
-            and was used
-            by the British
-            government to
-            crack secret
-            German codes.
-            In 1945, Americans created a faster computer called ENIAC
-            ENIAC
-            Stands for “Electronic Numerical
+            used a tool called the <u><b>SLIDE RULE</b></u>
+            to help them calculate.</p>
+            <p class="description">
+            <em>One of the earliest human caluclator, 
+            William Oughtred invented The circular slide rule In 1621</em><br><img src="https://live.staticflickr.com/3489/4021180926_735539d096_n.jpg" style="width:200px;height:200px;">
+            </p>
+            </article>
+              <article>
+            <p class="descriptionright"><img class="imgright" src="https://www.planetanalog.com/wp-content/uploads/images-common-planetanalog-2014-03-562763-F1x600.jpg"  style="width:280px;height:250px;margin-left:15px;">
+              <em>In 1944, during World War II, the first electronic computer was made. 
+                It was called COLOSSUS MARK 1 and was used by the British government to crack secret German codes
+              </em>
+              <p>
+                Early computers were massive—they took up entire rooms! These colossal machines, often referred to as mainframes, were primarily used by large businesses, governments, or researchers. They required extensive cooling systems to prevent overheating and consumed vast amounts of electricity. The operators of these early computers had to be highly trained, as the machines were complex and required meticulous maintenance.</p>
+          </p>
+              </article>  
+        <article>
+            <p class="descriptionleft"><img class="imgleft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Two_women_operating_ENIAC_%28full_resolution%29.jpg/1280px-Two_women_operating_ENIAC_%28full_resolution%29.jpg" style="width:300px;height:300px;margin-right:15px;"> 
+            <em>In 1945, Americans created a faster computer called ENIAC Stands for “Electronic Numerical
             Integrator and Computer,” which
             was the first programmable,
-            general-purpose computer.
-            Early computers were
-            massive-they took up
-            entire rooms! These
-            computers were used
-            by large businesses,
-            governments, or
-            researchers.
-            The first mass-produced personal computer, the APPLE II,
-            was introduced in 1977. Owners could use the computer to run
-            simple programs or play games.
-            Today, computers are tiny and everywhere, including phones.
-            Smartphones are considered computers because:
-            they run programs (like messaging, photo editing,
+            general-purpose computer.</em></p>
+            <p>ENIAC was massive, occupying a large space and containing 17,000 vacuum tubes and numerous other components. It ran continuously to prevent tube failure, using 174 kilowatts of power. It was far faster than previous electromechanical computers, capable of 5,000 additions per second. While the war ended before its completion in 1946, ENIAC’s first task was to assist with hydrogen bomb calculations. It marked the beginning of the first generation of computers using vacuum tubes and is partially preserved at the Smithsonian Institution.
+          </p></article> 
+          <article>
+            <p class="descriptionright"><img class="imgright" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Apple_IIGS_with_peripherals.jpg/330px-Apple_IIGS_with_peripherals.jpg" style="width:300px;height:280px;margin-right:15px;">
+          <em> first mass-produced personal computer, the APPLE II,
+           was introduced in 1977. Owners could use the computer to run
+           simple programs or play games.</em>
+          </p>
+          <p>The Apple II was an innovative personal computer that made computers more available to the general population. Middle-class families could easily afford it and schools also used it. By 1980's end, more than 100,000 Apple IIs were sold, and when the IIGS came out, 3 million had been sold. On the other hand, the Apple II did not achieve the same level of success in different markets, like the UK, where only 120,000 units were purchased in a span of nine years.
+          </p></article>
+          <article><p>
+            In this day and age of the 21st century, computers can be found everywhere, from powering the internet and the world wide web to connecting people, to even being small enough to carry in your pocket, like smartphones.
+            Smartphones are classified as computers due to their capabilities.
+            They execute applications (such as messaging, photo editing,
             and maps).
-            they store information (like photos, contact information,
-            and documents).
-            they perform calculations
-            (with a calculator, with the
-            clock/stopwatch, with maps).
-            Smartphones are more
-            powerful computers than
-            the computer used on the
-            rocket that took astronauts
-            to the moon in 1969.</p>
+            they save data such as pictures, phone numbers,
+            and records.
+            they conduct computations
+            using a calculator, with the assistance of a calculator
+            timepiece, including maps. Smartphones are
+            advanced now compared to
+            the computer that was utilized on the
+            spacecraft that took astronauts to the moon in 1969.<br><br><img class="description" src=https://www.metaltechnews.com/IMG/Aajf0m8qUWqkqfYjVce_8yqdtJ7sh/XPATH/home/cms_data/dfault/photos/stories/id/1/4/114/s_topXEXT1057x32750is.jpg" height="500" width="500"></p></article>
         <h2>Hoby</h2>
-        <p>Lagi ako natate😂</p>
-        <img src="https://www.fearfreehappyhomes.com/wp-content/uploads/2021/04/bigstock-Angry-Cat-337044.jpg" height="100" width="100">
-        </article>
+        <p>😂</p>
+        <img src="https://www.fearfreehappyhomes.com/wp-content/uploads/2021/04/bigstock-Angry-Cat-337044.jpg">
+        <footer class="container"> 
+          far
+          <br>
+          fard
+        </footer>
 </details>
-
-
-  </header>
+</header>
 </body>
 </html>
